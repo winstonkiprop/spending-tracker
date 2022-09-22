@@ -21,3 +21,25 @@ code {
 .head-sect{
   text-align: left;
 }
+
+.home-sect{
+  background-color: #0b0d21;
+}
+
+
+.expense-container{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.expense-det{
+  background-color: #0b0d21;
+  width: 25%;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 10%;
+  color: white;
+}
+.expense-det span{
+  color: yellowgreen;
+}
