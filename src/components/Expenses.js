@@ -11,7 +11,7 @@ function Expenses(){
 
     const getExpenses =() =>{
         axios
-        .get('http://localhost:9292/expenses')
+        .get('https://backend-phase-3.herokuapp.com/expenses')
         .then((res) =>{
             console.log(res)
             setExpenses(res.data);

@@ -12,7 +12,7 @@ function Items(){
 
     const getItems =()=>{
         axios 
-        .get('http://localhost:9292/items')
+        .get('https://backend-phase-3.herokuapp.com/items')
         .then((res) =>{
            // console.log(res);
             setItems(res.data);

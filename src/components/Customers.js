@@ -10,7 +10,7 @@ function Customers(){
 
     const getAllCustomers=()=>{
         axios
-        .get ('http://localhost:9292/customers')
+        .get ('https://backend-phase-3.herokuapp.com/customers')
         .then((res) =>{
             console.log(res);
             setCustomers(res.data);

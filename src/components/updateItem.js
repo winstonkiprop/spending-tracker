@@ -8,7 +8,7 @@ function UpdateItem(){
     const handleSubmit=(e) => {
         e.preventDefault();
 
-        axios.patch(`http://localhost:9292/items/${id}`, {
+        axios.patch(`https://backend-phase-3.herokuapp.com/${id}`, {
             id:id,
             price:price
         })

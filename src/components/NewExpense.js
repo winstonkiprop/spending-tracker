@@ -8,7 +8,7 @@ function NewExpense(){
     const handleSubmit = (e) =>{
         e.preventDefault();
 
-        axios.post('http://localhost:9292/expenses',{
+        axios.post('https://backend-phase-3.herokuapp.com/expenses',{
             item_name: item_name,
             price: price,
             amount: amount

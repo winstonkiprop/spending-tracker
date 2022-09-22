@@ -14,7 +14,7 @@ function Categories(){
     }, [])
     const getCategoryDetails =() =>{
         axios
-        .get('http://localhost:9292/categories')
+        .get('https://backend-phase-3.herokuapp.com/categories')
         .then((res)=>{
             console.log(res);
             setCategories(res.data);

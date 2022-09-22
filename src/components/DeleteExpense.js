@@ -4,7 +4,7 @@ function DeleteExpense(){
     const [id, setId] = useState("")
 const handleSubmit =(e) => {
     e.preventDefault();
-  axios.delete(`http://localhost:9292/expenses/${id}`, {
+  axios.delete(`https://backend-phase-3.herokuapp.com/${id}`, {
 })
 .then((response) => {
   console.log(response)
