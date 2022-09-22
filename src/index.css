@@ -20,12 +20,79 @@ code {
 }
 .head-sect{
   text-align: left;
+  padding-left: 4%;
+}
+article{
+  display: flex;
+  flex-direction:row;
+}
+
+article div{
+  padding: 2%;
+}
+article img{
+  width: 100%;
 }
 
 .home-sect{
   background-color: #0b0d21;
+  padding-left: 2%;
+  padding-bottom: 4%;
+  padding-top: 2%;
+  color: white;
 }
 
+.navbar{
+  text-align: center;
+  font-size: 1.4rem;
+
+}
+
+ul{
+  list-style: none;
+  padding: 2%;
+}
+
+li{
+  display: inline;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.nav_link{
+  text-decoration: none;
+  color: white;
+  line-height: 1.6rem;
+}
+
+
+.category-container{
+  padding-left: 4%;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.category-det{
+  border-radius: 6%;
+  padding: 4%;
+  width: 25%;
+  background-color: gainsboro;
+  margin: 2%;
+}
+
+.view-btn{
+  width: 45%;
+  background-color: #0b0d21;
+  color: white;
+  border-radius: 20%;
+  font-size: 1.4rem;
+}
+
+.all-category .navbar{
+  background-color: #0b0d21;
+}
 
 .expense-container{
   display: flex;
@@ -42,4 +109,126 @@ code {
 }
 .expense-det span{
   color: yellowgreen;
+}
+
+.items-container{
+  padding: 4%;
+}
+
+.item-det{
+  width: 75%;
+  background-color:gainsboro;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-det h2{
+  padding: 2%;
+}
+
+.all-items .navbar{
+  background-color: #0b0d21;
+}
+
+.new-expense-form{
+  margin: 2%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 45vh;
+  margin-left: 40%;
+  margin-top: 40px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  background-color: #0b0d21;
+}
+
+form.new-expense-form input{
+  margin: 4%;
+  margin-bottom: 2%;
+  height: 30px;
+  border-radius: 2%;
+  padding: 2%;
+}
+
+.btn-inpt{
+
+  width: 40%;
+  margin-bottom: 4%;
+  padding: 0;
+  background-color:white;
+  color: black;
+  font-size: 1.0rem;
+  text-align: center;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+}
+
+.btn-update-inpt{
+  width: 40%;
+  margin-bottom: 4%;
+  padding: 0;
+  background-color:white;
+  color: black;
+  font-size: 1.0rem;
+  text-align: center;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+}
+
+.customer-det{
+  display: flex;
+  flex-direction: row;
+}
+
+.customer-det div{
+  padding-left: 2%;
+}
+
+.all-customers .navbar{
+  background-color: #0b0d21;
+}
+
+.foot-div{
+  margin-top: 10%;
+  width: 100%;
+  background-color: yellowgreen;
+  padding: 4%;
+  position: absolute;
+  margin-bottom: 0;
+}
+
+.btn-delete-inpt{
+  background-color: #0b0d21;
+  color: white;
+}
+.all-expenses .navbar{
+  background-color: #0b0d21;
+}
+form.update-item-price{
+margin: 2%;
+padding: 1em;
+display: flex;
+flex-direction: column;
+width: 45vh;
+margin-left: 40%;
+margin-top: 40px;
+border-top-left-radius: 10%;
+border-top-right-radius: 10%;
+border-bottom-left-radius: 10%;
+border-bottom-right-radius: 10%;
+background-color: #0b0d21;
+}
+.update-item-price input{
+  margin: 4%;
+  margin-bottom: 2%;
+  height: 30px;
+  border-radius: 2%;
+  padding: 2%;
 }

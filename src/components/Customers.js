@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, {useEffect, useState} from "react"; 
+import NavBar from "./NavBar"
 
 function Customers(){
     const[customers, setCustomers] = useState([])
@@ -20,7 +21,8 @@ function Customers(){
         })
     };
     return(
-        <div>
+        <div className="all-customers">
+            <NavBar/>
             <div className="customer-container">
                 {customers.map((customer) =>(
                     <div className="customer-det" key = {customer.id}>

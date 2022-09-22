@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Customers from './components/Customers';
 import Expenses from './components/Expenses';
 import Items from "./components/Items";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
   </Routes>
 </BrowserRouter>
 </main>
+
+<Footer/>
     </div>
   );
 }

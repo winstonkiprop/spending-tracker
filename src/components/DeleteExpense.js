@@ -14,7 +14,7 @@ const handleSubmit =(e) => {
   };
     return(
         <div>
-        <form className="expense-details-form" onSubmit={handleSubmit}>
+      <form className="expense-details-form" onSubmit={handleSubmit}>
       <input placeholder="expense id" type="text"
       value={id}
       onChange={(e) => setId(e.target.value)}/>

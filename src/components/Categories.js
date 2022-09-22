@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import NavBar from "./NavBar";
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 
@@ -24,6 +25,7 @@ function Categories(){
     };
     return(
         <div className="all-category">
+            <NavBar/>
             <h1>All Categories</h1>
             <div className="category-container">
             {categories.map((category) => (
