@@ -3,7 +3,7 @@ function Home(){
     return(
         <div>
             <header>
-            <h1 app-name>Spending <span>Tracker</span></h1>
+            <h1 className="app-name">Spending <span>Tracker</span></h1>
             </header>
             <div className="head-sect">
                 <article>
@@ -14,3 +14,5 @@ function Home(){
         </div>
     )
 }
+
+export default Home;
